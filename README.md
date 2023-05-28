@@ -15,10 +15,11 @@
 
 对于部分监听不到的bssid和channel的WiFi无法攻击
 
-如图 其中 bssid 和 channel 需要自己键入
+如图 其中 bssid 和 channel 需要自己键入（实现指定攻击
 
 ![image](https://github.com/hezhenyuqwq/Semi-automatic_attack/assets/91007437/12a8b8eb-ddcc-4749-9a2f-8f297c2daa43)
 
+如果网卡开启监听模式还是叫wlan0而不加wlan0mon（像我一样只有wlan0）就自己把bat脚本里所有的wlan0mon换成wlan0即可
 
                            ###使用声明###
 本工具仅用于安全测试目的
